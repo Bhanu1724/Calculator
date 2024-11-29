@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    border: 1px solid rgba(82, 81, 81, 0.584);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(4, 4, 4);
+
+}
+#screen {
+    width: 400px;
+    height: 50px;
+    background-color: #367fc07b;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.buttons button {
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buttons button:hover {
+    background-color: #555;
+}
+.buttons button:active {
+    background-color: #777;
+}
+.buttons button:focus {
+    outline: none;
+}
+#acbtn{
+    background-color: red;
+}
+#delbtn{
+    background-color: orange;
+}
+#eql{
+    background-color: green;
+}
+.math{
+    background-color: blue !important;
+}
+h2{
+    background-color: aqua;
+    width: 170px;
+    margin: 5px auto;
+
+}
